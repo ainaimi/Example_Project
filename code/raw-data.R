@@ -10,6 +10,7 @@ for (package in packages) {
   library(package, character.only=T)
 }
 
+
 ## import data from web:
 file_loc <- url("https://cdn1.sph.harvard.edu/wp-content/uploads/sites/1268/1268/20/nhefs.csv")
 nhefs_data <- read_csv(file_loc)
